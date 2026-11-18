@@ -6,12 +6,10 @@ with open("README.md", "r", encoding="utf-8") as fh:
 setup(
     name="data-insights",
     version="0.1.0",
-    author="Your Name",
-    author_email="your.email@example.com",
     description="A simple data analysis tool for exploratory data analysis",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/yourusername/data-insights",
+    url="https://github.com/thelkotolsantosh/data_insights",
     packages=find_packages(),
     classifiers=[
         "Programming Language :: Python :: 3",
@@ -28,9 +26,6 @@ setup(
     python_requires=">=3.8",
     install_requires=[
         "pandas>=1.3.0",
-        "numpy>=1.21.0",
-        "matplotlib>=3.4.0",
-        "seaborn>=0.11.0",
     ],
     entry_points={
         "console_scripts": [
